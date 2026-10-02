@@ -125,4 +125,4 @@ Everything else, including the horizon, control rate, whether LLA is used (`with
 
 ---
 
-This repository is developed by Henry Liao in collaboration with Maitham F. Al-Sunni. Please contact hzl@andrew.cmu.edu or maitham@cmu.edu if you have questions.
+This repository is developed by Henry Liao in collaboration with Maitham F. Al-Sunni. Please contact hzl@andrew.cmu.edu or maitham@cmu.edu if you have questions or issues running this repo.
