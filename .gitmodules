@@ -1,0 +1,9 @@
+[submodule "f1tenth_gym"]
+	path = f1tenth_gym
+	url = https://github.com/f1tenth/f1tenth_gym.git
+[submodule "f1tenth_gym_ros"]
+	path = f1tenth_gym_ros
+	url = https://github.com/f1tenth/f1tenth_gym_ros.git
+[submodule "natnet_ros2"]
+	path = natnet_ros2
+	url = https://github.com/L2S-lab/natnet_ros2.git

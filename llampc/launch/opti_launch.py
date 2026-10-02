@@ -60,21 +60,7 @@ def generate_launch_description():
         executable='optitrack_node.py',
         name='optitrack_subscriber',
         output='screen',
-        parameters=[{'topic': LaunchConfiguration('mocap_topic')}]
-    )
-
-    cg_tf_node = Node(
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            name='static_baselink_to_cg',
-            arguments=['0.15', '0.0', '0.0', '0.0', '0.0', '0.0', 'base_link', 'cg']
-        )
-    
-    imu_tf_node = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        name='static_baselink_to_imu',
-        arguments=['0.065', '0.0', '0.0', '0.0', '0.0', '0.0', 'base_link', 'imu_link']
+        parameters=[{'mocap_topic': LaunchConfiguration('mocap_topic')}]
     )
 
     return LaunchDescription([
